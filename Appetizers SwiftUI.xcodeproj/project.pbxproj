@@ -18,6 +18,7 @@
 		9915C4D4259B56FF00C94925 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4D3259B56FF00C94925 /* AppetizerListCell.swift */; };
 		9915C4D8259B7A2B00C94925 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4D7259B7A2B00C94925 /* NetworkManager.swift */; };
 		9915C4DB259B7B5400C94925 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4DA259B7B5400C94925 /* APError.swift */; };
+		9915C4DE259B86EE00C94925 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4DD259B86EE00C94925 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9915C4D3259B56FF00C94925 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		9915C4D7259B7A2B00C94925 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9915C4DA259B7B5400C94925 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		9915C4DD259B86EE00C94925 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9915C4D3259B56FF00C94925 /* AppetizerListCell.swift */,
 				9915C4D7259B7A2B00C94925 /* NetworkManager.swift */,
 				9915C4DA259B7B5400C94925 /* APError.swift */,
+				9915C4DD259B86EE00C94925 /* AppetizerListViewModel.swift */,
 			);
 			path = "Appetizers SwiftUI";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				9915C4D4259B56FF00C94925 /* AppetizerListCell.swift in Sources */,
 				9915C4DB259B7B5400C94925 /* APError.swift in Sources */,
 				9915C4D1259B522A00C94925 /* Appetizer.swift in Sources */,
+				9915C4DE259B86EE00C94925 /* AppetizerListViewModel.swift in Sources */,
 				9906A788259B374F00CA37E9 /* AccountView.swift in Sources */,
 				9906A776259B361F00CA37E9 /* AppetizerTabView.swift in Sources */,
 				9915C4D8259B7A2B00C94925 /* NetworkManager.swift in Sources */,
