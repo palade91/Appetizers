@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9906A774259B361F00CA37E9 /* Appetizers_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906A773259B361F00CA37E9 /* Appetizers_SwiftUIApp.swift */; };
-		9906A776259B361F00CA37E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906A775259B361F00CA37E9 /* ContentView.swift */; };
+		9906A776259B361F00CA37E9 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906A775259B361F00CA37E9 /* AppetizerTabView.swift */; };
 		9906A778259B362000CA37E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9906A777259B362000CA37E9 /* Assets.xcassets */; };
 		9906A77B259B362000CA37E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9906A77A259B362000CA37E9 /* Preview Assets.xcassets */; };
+		9906A784259B374800CA37E9 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906A783259B374800CA37E9 /* AppetizerListView.swift */; };
+		9906A788259B374F00CA37E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906A787259B374F00CA37E9 /* AccountView.swift */; };
+		9906A78B259B375600CA37E9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906A78A259B375600CA37E9 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9906A770259B361F00CA37E9 /* Appetizers SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appetizers SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9906A773259B361F00CA37E9 /* Appetizers_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizers_SwiftUIApp.swift; sourceTree = "<group>"; };
-		9906A775259B361F00CA37E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9906A775259B361F00CA37E9 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		9906A777259B362000CA37E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9906A77A259B362000CA37E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9906A77C259B362000CA37E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9906A783259B374800CA37E9 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		9906A787259B374F00CA37E9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		9906A78A259B375600CA37E9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9906A773259B361F00CA37E9 /* Appetizers_SwiftUIApp.swift */,
-				9906A775259B361F00CA37E9 /* ContentView.swift */,
+				9906A775259B361F00CA37E9 /* AppetizerTabView.swift */,
 				9906A777259B362000CA37E9 /* Assets.xcassets */,
 				9906A77C259B362000CA37E9 /* Info.plist */,
 				9906A779259B362000CA37E9 /* Preview Content */,
+				9906A783259B374800CA37E9 /* AppetizerListView.swift */,
+				9906A787259B374F00CA37E9 /* AccountView.swift */,
+				9906A78A259B375600CA37E9 /* OrderView.swift */,
 			);
 			path = "Appetizers SwiftUI";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9906A776259B361F00CA37E9 /* ContentView.swift in Sources */,
+				9906A788259B374F00CA37E9 /* AccountView.swift in Sources */,
+				9906A776259B361F00CA37E9 /* AppetizerTabView.swift in Sources */,
 				9906A774259B361F00CA37E9 /* Appetizers_SwiftUIApp.swift in Sources */,
+				9906A784259B374800CA37E9 /* AppetizerListView.swift in Sources */,
+				9906A78B259B375600CA37E9 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
