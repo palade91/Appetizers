@@ -20,6 +20,8 @@
 		9915C4D8259B7A2B00C94925 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4D7259B7A2B00C94925 /* NetworkManager.swift */; };
 		9915C4DB259B7B5400C94925 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4DA259B7B5400C94925 /* APError.swift */; };
 		9915C4DE259B86EE00C94925 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915C4DD259B86EE00C94925 /* AppetizerListViewModel.swift */; };
+		9917477A25A384810090D899 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917477925A384810090D899 /* LoadingView.swift */; };
+		99FB025A25A3880B001F82DE /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB025925A3880B001F82DE /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		9915C4D7259B7A2B00C94925 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9915C4DA259B7B5400C94925 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		9915C4DD259B86EE00C94925 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		9917477925A384810090D899 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		99FB025925A3880B001F82DE /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				9915C4DA259B7B5400C94925 /* APError.swift */,
 				9915C4DD259B86EE00C94925 /* AppetizerListViewModel.swift */,
 				9910E0E525A328BC00F8AAFE /* Alert.swift */,
+				9917477925A384810090D899 /* LoadingView.swift */,
+				99FB025925A3880B001F82DE /* Color+Ext.swift */,
 			);
 			path = "Appetizers SwiftUI";
 			sourceTree = "<group>";
@@ -169,7 +175,9 @@
 				9915C4DB259B7B5400C94925 /* APError.swift in Sources */,
 				9915C4D1259B522A00C94925 /* Appetizer.swift in Sources */,
 				9915C4DE259B86EE00C94925 /* AppetizerListViewModel.swift in Sources */,
+				99FB025A25A3880B001F82DE /* Color+Ext.swift in Sources */,
 				9906A788259B374F00CA37E9 /* AccountView.swift in Sources */,
+				9917477A25A384810090D899 /* LoadingView.swift in Sources */,
 				9906A776259B361F00CA37E9 /* AppetizerTabView.swift in Sources */,
 				9915C4D8259B7A2B00C94925 /* NetworkManager.swift in Sources */,
 				9906A774259B361F00CA37E9 /* Appetizers_SwiftUIApp.swift in Sources */,
